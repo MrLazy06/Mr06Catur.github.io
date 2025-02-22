@@ -1,0 +1,29 @@
+body {
+  font-family: chess;
+  margin: 0;
+  background-color: #000;
+}
+
+.square {
+  background: #fff;
+  display: inline-block;
+  border: 1px solid #fff;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+}
+.heading {
+  color: white;
+  text-align: right;
+}
+.head {
+  color: white;
+  text-align: center;
+}
+.body {
+  border: 2px solid white;
+  height: 110px;
+  margin: 5px;
+  font-size: 12px;
+}
+
